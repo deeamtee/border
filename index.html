@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+  body {
+    background: #fafafa;
+    padding: 20px;
+  }
+  * {
+    border: 1px solid red;
+  }
+  .buttonOn,  .buttonOff {
+    border: 1px solid blue;
+    padding: 4px;
+    padding-right: 9px;
+    background-color: #fafafa;
+    cursor: pointer;
+  }
+  .buttonOff {
+    margin-left: 8px;
+    border: 1px solid yellow;
+  }
+  .buttonOn, .buttonOff :hover {
+    opacity: 0.8;
+  }
+  .flex {
+    border: none;
+    display: flex;
+  }
+  </style>
+  <script src="./popup.js"></script>
+</head>
+<body>
+  <h3>Border.js</h3>
+<div class="flex">
+  <div class="buttonOn">Включить</div>
+  <div class="buttonOff">Выключить</div>
+</div>
+
+</body>
+</html>
